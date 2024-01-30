@@ -27,6 +27,8 @@ Welcome to the JavaScript Advanced repository! In this collection, you will expl
 ## DOM Introduction
 
 Learn the basics of the Document Object Model (DOM) and how to interact with HTML documents using JavaScript.
+![Untitled-2024-01-30-0103](https://github.com/atulkashyap404/JavaScript-Advance/assets/69070345/e46b7d07-6dca-4eab-a5c9-fb76428cb2d7)
+
 
 ## All DOM Selectors
 

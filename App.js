@@ -73,48 +73,48 @@
 
 // Creating function for adding element in list
 
-function addlang(langname){
-    const li = document.createElement('li');
-    li.innerHTML = `${langname}`
-    document.querySelector('.languages').appendChild(li)
-}
+// function addlang(langname){
+//     const li = document.createElement('li');
+//     li.innerHTML = `${langname}`
+//     document.querySelector('.languages').appendChild(li)
+// }
 
-addlang("Python")
-addlang("TypeScript")
-
-
-// Optimised way to add elements.
-
-function addOptli(langName){
-    const li = document.createElement('li')
-    li.appendChild(document.createTextNode(langName))
-    document.querySelector('.languages').appendChild(li)
-}
-
-addOptli("Golang")
+// addlang("Python")
+// addlang("TypeScript")
 
 
+// // Optimised way to add elements.
 
-// Edit
+// function addOptli(langName){
+//     const li = document.createElement('li')
+//     li.appendChild(document.createTextNode(langName))
+//     document.querySelector('.languages').appendChild(li)
+// }
 
-const secondLang = document.querySelector("li:nth-child(2)")
-// secondLang.innerHTML = "Mojo"
-
-
-// by making new element and then replace with python value.
-const newli = document.createElement('li')
-newli.textContent = "Mojo"
-secondLang.replaceWith(newli)
-
-// edit
-
-const firstLang = document.querySelector("li:first-child")
-// firstLang.textContent = "TypeScript"
-firstLang.outerHTML = '<li>TypeScript</li>'
+// addOptli("Golang")
 
 
-// remove
 
-const lastLang = document.querySelector('li:last-child')
+// // Edit
 
-lastLang.remove()
+// const secondLang = document.querySelector("li:nth-child(2)")
+// // secondLang.innerHTML = "Mojo"
+
+
+// // by making new element and then replace with python value.
+// const newli = document.createElement('li')
+// newli.textContent = "Mojo"
+// secondLang.replaceWith(newli)
+
+// // edit
+
+// const firstLang = document.querySelector("li:first-child")
+// // firstLang.textContent = "TypeScript"
+// firstLang.outerHTML = '<li>TypeScript</li>'
+
+
+// // remove
+
+// const lastLang = document.querySelector('li:last-child')
+
+// lastLang.remove()
